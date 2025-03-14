@@ -4,6 +4,7 @@ export default function ContentLayout({ children }) {
   return (
     <>
       <NavBar />
+      <div className="bg-slate-800">{children}</div>
     </>
   );
 }

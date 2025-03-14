@@ -22,12 +22,14 @@ export default function NavBar() {
             </span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button
-              type="button"
-              className="text-white bg-green-600 hover:bg-green-700 font-medium rounded-lg text-sm px-6 py-2.5 text-center"
-            >
-              Sign Up
-            </button>
+            <NavLink href="/sign-up">
+              <button
+                type="button"
+                className="text-white bg-green-600 hover:bg-green-700 font-medium rounded-lg text-sm px-6 py-2.5 text-center"
+              >
+                Sign Up
+              </button>
+            </NavLink>
           </div>
           <div
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
@@ -36,6 +38,9 @@ export default function NavBar() {
             <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0">
               <li>
                 <NavLink href="/product">Home</NavLink>
+              </li>
+              <li>
+                <NavLink href="/ticket">Ticket</NavLink>
               </li>
               <li>
                 <NavLink href="/contact">Contact</NavLink>

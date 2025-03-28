@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@heroui/react": "^2.7.4",
+    "@prisma/client": "^6.5.0",
     "framer-motion": "^12.4.10",
     "next": "15.2.1",
+    "prisma": "^6.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
